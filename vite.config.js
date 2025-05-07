@@ -29,15 +29,19 @@ export default defineConfig(({ mode }) => ({
   build: {
     target: 'es2022',
     rollupOptions: {
-      external: [
-        'react',
-        'react-dom',
-        /^node:.*/,
-      ],
       output: {
         manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'ui-vendor': ['@radix-ui/react-accordion', '@radix-ui/react-collapsible', '@radix-ui/react-dialog', '@radix-ui/react-tooltip'],
+          'ui-vendor': [
+            '@radix-ui/react-accordion',
+            '@radix-ui/react-collapsible',
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-tooltip'
+          ],
+          'utils': [
+            'clsx',
+            'tailwind-merge',
+            'tailwindcss-animate'
+          ]
         },
       },
     },
