@@ -1,0 +1,115 @@
+{
+  "destination": "Japan",
+  "days": 2,
+  "budget": 200000,
+  "interests": [],
+  "travel_style": "leisure",
+  "start_date": "12th May",
+  "end_date": "12th May",
+  "number_of_people": 3,
+  "reason_of_visit": "leisure",
+  "itinerary": {
+    "day_1": {
+      "date": "May 12th",
+      "city": "Tokyo (Likely Arrival Point)",
+      "weather_suggestion": "The weather in Tokyo during mid-May is generally pleasant, with average temperatures ranging from 15-25°C (59-77°F). Expect mostly sunny or partly cloudy skies. Pack light clothing with a light jacket or sweater for cooler evenings.",
+      "activities": [
+        {
+          "name": "Explore the Imperial Palace East Garden",
+          "type": "outdoor",
+          "description": "Visit the former site of Edo Castle, now a public park offering beautiful gardens and historical sites.",
+          "duration": "2-3 hours",
+          "distance_to_next": "approx. 20 minutes by subway to Ginza"
+        },
+        {
+          "name": "Ginza District Exploration",
+          "type": "indoor/outdoor",
+          "description": "Wander through Ginza, known for its upscale shops, department stores, and art galleries. Enjoy window shopping or explore the Kabuki-za Theatre.",
+          "duration": "3-4 hours",
+          "distance_to_next": "approx. 15 minutes by subway to Shinjuku"
+        },
+        {
+          "name": "Shinjuku Gyoen National Garden",
+          "type": "outdoor",
+          "description": "Relax in this beautiful garden offering a blend of Japanese, English, and French garden styles.",
+          "duration": "2 hours"
+        }
+      ],
+      "food_recommendations": [
+        {
+          "name": "Ichiran Ramen (Shinjuku)",
+          "cuisine": "Ramen",
+          "dietary_notes": "Offers customizable ramen with options to adjust broth richness, toppings, and spice level. Can accommodate some dietary restrictions with modifications. ",
+          "budget": "Budget-friendly"
+        },
+        {
+          "name": "Tsukiji Outer Market (Near Ginza)",
+          "cuisine": "Seafood, Street Food",
+          "dietary_notes": "Offers a variety of seafood dishes and street food. Great option for trying local delicacies.",
+          "budget": "Budget-friendly"
+        }
+      ],
+      "accommodation_recommendation": {
+        "type": "Hotel/Airbnb",
+        "name": "Hotel Gracery Shinjuku (Godzilla Head Hotel) or Similar",
+        "budget": "Mid-range",
+        "notes": "Consider a hotel in Shinjuku for easy access to transportation and attractions. Alternatively, explore Airbnb options for potentially more affordable and spacious accommodations."
+      },
+      "local_events": [
+        {
+          "name": "Sanja Matsuri Festival (Mid-May, if dates align)",
+          "description": "One of Tokyo's largest and wildest festivals, showcasing traditional music, dancing, and portable shrines.",
+          "suitability": "Depends on exact dates within May and user's interest in cultural festivals."
+        }
+      ]
+    },
+    "day_2": {
+      "date": "May 13th",
+      "city": "Hakone (Day Trip)",
+      "weather_suggestion": "Similar to Tokyo, expect pleasant weather in Hakone with average temperatures around 15-25°C (59-77°F). Be prepared for potential changes in weather due to the mountainous region.",
+      "activities": [
+        {
+          "name": "Hakone Ropeway",
+          "type": "outdoor",
+          "description": "Enjoy stunning views of Mount Fuji (weather permitting) and volcanic hot springs from the Hakone Ropeway.",
+          "duration": "2-3 hours",
+          "distance_to_next": "Part of the Hakone Loop"
+        },
+        {
+          "name": "Lake Ashi Cruise",
+          "type": "outdoor",
+          "description": "Take a scenic cruise across Lake Ashi, surrounded by beautiful mountain landscapes.",
+          "duration": "1 hour",
+          "distance_to_next": "Part of the Hakone Loop"
+        },
+        {
+          "name": "Hakone Open-Air Museum",
+          "type": "outdoor",
+          "description": "Explore a unique collection of contemporary sculptures set against the backdrop of the Hakone mountains.",
+          "duration": "2-3 hours"
+        }
+      ],
+      "food_recommendations": [
+        {
+          "name": "Hatsuhana Soba Honten (Hakone-Yumoto)",
+          "cuisine": "Soba Noodles",
+          "dietary_notes": "Offers traditional soba noodle dishes with various toppings. Vegetarian options may be available; inquire when ordering.",
+          "budget": "Mid-range"
+        },
+        {
+          "name": "Local Restaurants in Hakone",
+          "cuisine": "Varied",
+          "dietary_notes": "Many restaurants in Hakone offer Japanese cuisine. Look for restaurants with English menus, or use translation apps for easier ordering. ",
+          "budget": "Mid-range"
+        }
+      ],
+      "travel_between": "Approx. 1.5-2 hours from Tokyo to Hakone by train (Odakyu Romancecar is recommended for comfort and direct access)",
+      "accommodation_recommendation": {
+        "type": "Return to Tokyo",
+        "name": "Same Hotel in Shinjuku",
+        "budget": "As per previous day",
+        "notes": "Return to your accommodation in Tokyo for the night. This reduces the hassle of checking in and out of different hotels."
+      }
+    }
+  }
+}

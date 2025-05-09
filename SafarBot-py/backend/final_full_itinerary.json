@@ -1,0 +1,43 @@
+{
+  "tripData": {
+    "destination": "Japan",
+    "startDate": "2024-05-12",
+    "endDate": "2024-05-13",
+    "duration": 2,
+    "currency": {
+      "name": "Indian Rupee (₹)",
+      "conversionRate": 1.0
+    },
+    "weather": "",
+    "language": "Hindi, English",
+    "emergencyContact": "112",
+    "electricalOutlet": "Type C, 230V",
+    "transportation": [
+      "Auto-rickshaw",
+      "Taxi",
+      "Bus",
+      "Metro"
+    ],
+    "cost": {
+      "transportation": {
+        "inr": 2000
+      },
+      "accommodation": {
+        "inr": 4000
+      },
+      "food": {
+        "inr": 0
+      },
+      "activities": {
+        "inr": 0
+      },
+      "miscellaneous": {
+        "inr": 5000
+      },
+      "total": {
+        "inr": 200000
+      }
+    }
+  },
+  "itineraryDays": []
+}

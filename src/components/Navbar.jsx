@@ -27,10 +27,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="features" className="text-safarDark hover:text-safarOrange transition-colors">Features</a>
-          <a href="how-it-works" className="text-safarDark hover:text-safarOrange transition-colors">How It Works</a>
-          <a href="testimonials" className="text-safarDark hover:text-safarOrange transition-colors">Testimonials</a>
-          <a href="planner" className="text-safarDark hover:text-safarOrange transition-colors">Pricing</a>
+          <a href="#features" className="text-safarDark hover:text-safarOrange transition-colors">Features</a>
+          <a href="#how-it-works" className="text-safarDark hover:text-safarOrange transition-colors">How It Works</a>
+          <a href="#testimonials" className="text-safarDark hover:text-safarOrange transition-colors">Testimonials</a>
+          {/* <a href="#planner" className="text-safarDark hover:text-safarOrange transition-colors">Pricing</a> */}
           {/* <button className="btn-primary">Get Started</button> */}
           <SignedOut>
             <a href="/login" className="w-10 h-10 rounded-full bg-safarOrange text-white flex items-center justify-center text-sm font-semibold self-start">
